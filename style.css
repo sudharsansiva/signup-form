@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./dark-background-1.jpg);
+    font-family: "Poppins", sans-serif;
+
+
+
+}
+.input-group img{
+    height: 50px;
+    width: 50px;
+    border: red;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    position: 
+}
+
+.signup-container {
+
+    margin-top: 60px;
+    border: 1px solid black;
+    width: 24rem;
+    height: auto;
+    box-shadow: 0px 5px 20px rgb(230, 230, 232);
+    border-radius: 10px;
+    background-color: rgba(13, 8, 8, 0.66);
+    letter-spacing: 2px;
+
+
+}
+
+h2 {
+    margin-left: 38%;
+    font-style: oblique;
+    color: rgba(13, 230, 57, 0.8);
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+
+h1 {
+    text-transform: capitalize;
+    margin-left: 19%;
+    margin-top: 6px;
+    font-size: 20px;
+    color: white;
+}
+
+.input-group>label {
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    text-indent: 15px;
+    display: block;
+    color: white;
+    margin: 6px;
+
+}
+
+.input-group>input {
+    padding: 15px;
+    width: 90%;
+    outline: 0;
+    border: 0px;
+    border-bottom: 2px solid black;
+    margin: 0px 1rem;
+    background-color: rgb(82, 80, 80);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 1px 2px 3px #51515077;
+    font-size: 20px;
+
+}
+
+.input-group>input::placeholder {
+    color: rgba(8, 4, 4, 0.406);
+    
+
+
+}
+
+#sumbit-btn {
+    margin-left: 32%;
+    width: 30%;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: italic;
+    color: white;
+    background-color: rgb(11, 49, 58);
+    border-radius: 10%;
+    transition:transform .3s ease-in-out;
+    /* border: 3px solid blue; */
+    letter-spacing: 5px;
+    position: relative
+}
+
+#sumbit-btn:hover {
+    transform: scale(1.2);
+}
+
+
+
+h5 {
+    margin: 6px 10px 0px 0px;
+    text-align: center;
+    /* margin-right: 10px; */
+    font-style: italic;
+    font-size: 19px;
+    color: white
+}
+h5 a{
+    color: black;
+}
+
+p {
+    color: red;
+    text-indent: 30px;
+    font-size: 10px;
+}
